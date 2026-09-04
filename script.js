@@ -528,6 +528,7 @@ function submitDispatch() {
       <table class="receipt-table">
         <tr><td>Customer Name</td><td>${selectedRepairData?.customerName || '—'}</td></tr>
         <tr><td>Contact No.</td><td>${selectedRepairData?.contactNo || '—'}</td></tr>
+        <tr><td>Dispatch Address</td><td>${data['Dispatch Address'] || '—'}</td></tr>
       </table>
       <div class="receipt-section" style="margin-top:8px;">Dispatch Details</div>
       <table class="receipt-table">
@@ -539,7 +540,6 @@ function submitDispatch() {
         <tr><td>Actual Problem Found</td><td>${data['Actual Problem Found'] || '—'}</td></tr>
         <tr><td>Any Cost</td><td>${data['Any Cost'] || '—'}</td></tr>
         <tr><td>Transport (Outward)</td><td>${data['Transport Details (Outward)'] || '—'}</td></tr>
-        <tr><td>Dispatch Address</td><td>${data['Dispatch Address'] || '—'}</td></tr>
         <tr><td>Dispatched By</td><td>${data['Dispatched By']}</td></tr>
         <tr><td>Remarks</td><td>${data['Dispatch Remarks'] || '—'}</td></tr>
       </table>
