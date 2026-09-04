@@ -227,6 +227,7 @@ async function submitReceive() {
     'Customer Name': document.getElementById('r_customerName').value,
     'Contact No': document.getElementById('r_contactNo').value,
     'Email': document.getElementById('r_email').value,
+    'Address': document.getElementById('r_address').value,
     'Category': category,
     'Battery Type': document.getElementById('r_batteryType').value,
     'Battery Model': document.getElementById('r_batteryModel').value,
