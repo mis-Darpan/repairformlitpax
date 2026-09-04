@@ -272,6 +272,7 @@ async function submitReceive() {
       <tr><td>Customer Name</td><td>${data['Customer Name']}</td></tr>
       <tr><td>Contact No.</td><td>${data['Contact No']}</td></tr>
       <tr><td>Email</td><td>${data['Email'] || '—'}</td></tr>
+      <tr><td>Address</td><td>${data['Address'] || '—'}</td></tr>
     </table>
     <div class="receipt-section" style="margin-top:8px;">Product Details</div>
     <table class="receipt-table">
@@ -528,6 +529,7 @@ function submitDispatch() {
       <table class="receipt-table">
         <tr><td>Customer Name</td><td>${selectedRepairData?.customerName || '—'}</td></tr>
         <tr><td>Contact No.</td><td>${selectedRepairData?.contactNo || '—'}</td></tr>
+        <tr><td>Address</td><td>${selectedRepairData?.address || '—'}</td></tr>
       </table>
       <div class="receipt-section" style="margin-top:8px;">Dispatch Details</div>
       <table class="receipt-table">
